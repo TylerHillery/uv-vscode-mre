@@ -1,0 +1,13 @@
+{
+    "name": "My Python Project",
+    "dockerFile": "Dockerfile",
+    "settings": { 
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "ms-python.python",
+        "charliermarsh.ruff"
+    ],
+    "postCreateCommand": "echo 'Container ready!'",
+    "remoteUser": "root"
+}
